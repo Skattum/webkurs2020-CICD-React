@@ -19,7 +19,7 @@ const MapboxGLMap = () => {
         container: mapContainer.current,
         style: "mapbox://styles/mapbox/streets-v11", // stylesheet location
         center: [10.409993,63.422091],
-        zoom: 5
+        zoom: 7
       });
 
       map.on("load", () => {
